@@ -164,7 +164,6 @@ body
 }
 .search-hotels
 {
-    font-weight: 550;
     width:346px;
     height:1150px;
     border: 1px solid rgba(0,0,0,0.3);
@@ -201,6 +200,12 @@ body
     position: absolute;
     top:120px;
     left:25px;
+}
+
+.star-section > p, .area-section > p,.accommodation-section > p , .services-section > p
+{
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .checkbox-star
@@ -273,11 +278,6 @@ body
     margin-top:10px;
 }
 
-.content-information
-{
-    position: relative;
-}
-
 .content-img-1
 {
    display: inline-block;
@@ -292,7 +292,7 @@ body
 
 .content-information
 {
-    width:1000px;
+    width:900px;
     position: relative;
     top:-901px;
     left:580px;
@@ -393,4 +393,27 @@ body
 .content-information-alt
 {
     margin-top:30px;
+}
+
+.more-button
+{
+    position: absolute;
+    top: 2400px;
+    right:780px;
+}
+
+.more-button  button
+{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #F17359;
+    color:white;
+    border: none;
+    border-radius: 15px;
+    padding:20px 70px;
+}
+.more-button  button:hover
+{
+    opacity: 0.8;
 }
